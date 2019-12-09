@@ -10,7 +10,7 @@ I am a student that is learning, let me know if you find any errors,the code is 
 
 * We are  making the assumption that the presences of each word are independent one another
 
-
+### todo
 - [ ] Add info about what I learned
 - [ ] add a use case for the model 
 
