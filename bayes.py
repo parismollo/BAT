@@ -38,6 +38,7 @@ class NaiveBayesClassifier:
 
 
     def _probabilities(self, token: str) -> Tuple[float, float]:
+        # P(Xi|S) = (k + number of spam containing the w_i)/(2k + number of spam)
         spam = self.token_spam_counts[token]
         ham = self.token_ham_counts[token]
 

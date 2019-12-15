@@ -12,7 +12,8 @@ I am a student that is learning, let me know if you find any errors,the code is 
 
 ### todo
 - [ ] Add info about what I learned
-- [ ] add a use case for the model 
+- [ ] add a use case for the model
 
 ## Resources that I used to learn about this fun topic:
-Book: Data Science from Scratch, Joel Grus
+* Book: Data Science from Scratch, Joel Grus
+* Video: Bayes theorem, Khan Academy 
