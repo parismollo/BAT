@@ -9,11 +9,11 @@ I am a student that is learning, let me know if you find any errors,the code is 
 This model is part of a family of simple "probabilistic classifiers" based on Bayes' theorem
 
 Bayes Theorem says that to find P(A|B) we need to look for
-P(B|A)/(P(B|A)+P(B|-A)), i.e, is the ratio of the probability that B happens conditioning that A happens with the probability that B happens.
+P(B|A)/(P(B|A)+P(B|-A)), i.e, the numerator is the probability that B happens considering that A happens and on the denominator we have the probability that B happens.
 
 The exercise proposed by the book is to create a simple spam filter and that's exactly what you will find in the code.
 
-We start  with the idea that we will look for the a bunch of words and try to discover the probability that a spam message contains such word P(Xi|S) and we will do the same for the scenario where it contains the word but isn't a spam P(Xi|-S) with this logic we can use Bayes Theorem to find out if giving the set of words is the message spam or not.
+We start  with the idea that we will look for a bunch of words and try to discover the probability that a spam message contains such word P(Xi|S) and we will do the same for the scenario where it contains the word but isn't a spam P(Xi|-S) with this logic we can use Bayes Theorem to find out if giving the set of words the message is a spam or not.
 
 * P ( S | X = x ) = P ( X = x | S ) / [ P ( X = x | S ) + P ( X = x | ¬ S ) ]
 
