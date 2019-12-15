@@ -4,7 +4,7 @@ The purpose of this repository is my self practice of Naive Bayes theorem. Exerc
 
 I am a student that is learning, let me know if you find any errors,the code is inspired from examples and exercises found in books.
 
-## A few important things that I learned
+## The idea behind the Naive Bayes classifier
 
 This model is part of a family of simple "probabilistic classifiers" based on Bayes' theorem
 
